@@ -1,0 +1,12 @@
+/* Updated CSS for horizontal layout */
+
+.admin-panel{
+  background-image: url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg');
+    height: 100%;
+    margin-top: -23px;
+}
+.user
+{
+  margin-left: -230px;
+}
+

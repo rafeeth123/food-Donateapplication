@@ -1,0 +1,40 @@
+.dashboard {
+    display: grid;
+    background-color: #92777778;
+    min-height: 100vh;
+    grid-template-columns: 1fr 7fr;
+    background-image: url("https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg");
+  }
+  
+  .sidebar {
+    color: #000;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    font-family: SF-Bold;
+  }
+
+  .sidebar-links{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  
+  .tabs{
+    font-size: 18px;
+    font-family: SF-Regular;
+  }
+
+  .tabs:hover{
+    transform: translateY(-5px);
+  }
+
+  .sidebar-links:hover .tabs:not(:hover){
+    filter: blur(1.5px);
+  }
+  

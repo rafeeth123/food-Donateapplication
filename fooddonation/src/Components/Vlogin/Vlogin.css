@@ -1,0 +1,114 @@
+.unique-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  
+}
+
+.unique-form {
+  background-color: rgba(209, 209, 196, 0.9);
+  display: block;
+  padding: 2rem;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+login-image-container{
+  display: flex;
+}
+.login-image-container img{
+  width: 100%;
+}
+
+/* Rest of your CSS remains the same */
+
+
+.unique-form-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.unique-input-container {
+  margin-bottom: 1rem;
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.unique-input-container input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #968787;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  margin-left: -15px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 100%;
+    background: none;
+    color: #8e8e8e;
+    border: none;
+    font-family: 'SF-Light';
+    font-size: 18px;
+    border-bottom: 0.1px solid black;
+    bottom: 0%;
+    box-shadow: 0px 8px 15px -8px #111;
+    border-radius: 0;
+    background: #f5f5f5;
+}
+
+.unique-submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: #a69b5b;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.unique-signup-link {
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.unique-signup-link a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-main-box {
+  display: flex;
+  flex: 1;
+  background-color: #f5f5f5;
+  align-items: center;
+
+  justify-content: center;
+}
+.signup-image-container img{
+  width: 100%;
+  height: 100%;
+}

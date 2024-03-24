@@ -1,0 +1,121 @@
+
+.radiant-background {
+  background: radial-gradient(circle, #e1d5d9, #614b51, #532d34);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-image: url("https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg");
+}
+
+
+.food-details-list-container h1, .admin-panel h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+
+.food-details-list-container table, .admin-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.food-details-list-container th, .admin-panel th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+
+.food-details-list-container td, .admin-panel td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+.food-details-list-container button, .admin-panel button {
+  background-color: #232a317a;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: #333;
+}
+
+
+.food-details-list-container button:hover, .admin-panel button:hover {
+  background-color: #364451;
+}
+
+
+.food-details-popup, .admin-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 999;
+  display: none; 
+}
+
+
+.food-details-popup button, .admin-popup button {
+  background-color: #4d4e4e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.food-details-popup.active, .admin-popup.active {
+  display: block;
+}
+
+
+.bol, .admin-panel {
+  background: linear-gradient(to bottom, #70626249, #fff); 
+  margin-top: -18px;
+}
+.food{
+  margin-left: -220px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination span {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.pagination span.active {
+  background-color: #333;
+  color: #fff;
+}
+

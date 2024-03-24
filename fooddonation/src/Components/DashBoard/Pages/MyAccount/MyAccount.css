@@ -1,0 +1,88 @@
+
+.myaccount-main-content {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 700px;
+  /*background-image: url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg');*/
+    height: 95%;
+    margin-top: -2px;
+
+}
+
+.myaccount-main-content h1 {
+  font-size: 44px;
+  font-family: SF-Bold;
+  margin-left: -340px;
+}
+.myaccount-welcome {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  height: 150px;
+}
+.myaccount-welcome p {
+  font-family: SF-Pro-Light;
+  width: 500px;
+}
+
+.myaccount-user-details {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100px;
+}
+
+.myaccount-user-details h2 {
+  font-family: SF-Bold;
+  font-size: 20px;
+}
+.myaccount-user-inner {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 70px;
+}
+.myaccount-user-inner p {
+  margin: 0;
+  font-family: SF-Pro-Light;
+}
+.myaccount-user-details input {
+  height: 40px;
+  width: 90px;
+  outline: none;
+  border-radius: none;
+  background: none;
+  border: none;
+  border: solid #000 0.1px;
+  font-family: SF-SemiBold;
+}
+
+.myaccount-social {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100px;
+}
+
+.myaccount-social h2 {
+  font-family: SF-Bold;
+  font-size: 20px;
+}
+
+.myaccount-social-inner {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-family: SF-Pro-Light;
+}
+
+.myaccount-social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.myaccount-links {
+  text-decoration: underline;
+}
+.acc{
+  background-image: url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg');
+    height: 100%;
+    margin-top: -23px;
+
+}
